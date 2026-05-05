@@ -46,7 +46,7 @@ constexpr struct olv_allowlist original_entry = {
 
 constexpr struct olv_allowlist new_entry = {
     .scheme = "https",
-    .domain = "." NETWORK_BASEURL,
+    .domain = ".unitendo.org",
     .path = "",
     .flags = {1, 1, 1, 1, 1},
 };
